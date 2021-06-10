@@ -1,0 +1,541 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+       "patterns": [
+         "Hi",
+         "Hey",
+         "How are you",
+         "Is anyone there?",
+         "Hello",
+         "Good day"
+      ],
+       "responses": [
+         "Hi ! How can I help?"
+      ]
+    },
+    
+    {
+      "tag": "goodbye",
+       "patterns": [
+         "Bye", 
+         "See you later", 
+         "Goodbye"
+      ],
+       "responses": [
+         "Have a nice day!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+       "patterns": [
+         "Thanks", 
+         "Thank you", 
+         "That's helpful", 
+         "Thank's a lot!"
+      ],
+       "responses": [
+         "Any time!"
+      ]
+    },
+
+    {
+      "tag": "enroll",
+       "patterns": [
+         "How to enroll?",
+         "What do i need to enroll?",
+         "Can i enroll?"
+      ],
+       "responses": [
+         "Kindly visit this page for more detailed explanation : https://neu.edu.ph/main/index.php/admission"
+      ]
+    },
+
+    {
+      "tag": "payments",
+       "patterns": [
+         "Do you take credit cards?",
+         "Do you accept Mastercard?",
+         "Can I pay with Paypal?",
+         "Are you cash only?",
+         "mode of payment"
+      ],
+       "responses": [
+         "Due to pandemic New Era University is only accepting through Bank deposit and via GCash, For more detailed explanation please visit : https://payment.neu.edu.ph/"
+      ]
+    },
+
+    {
+      "tag": "class",
+       "patterns": [
+         "When is the start of the class?",
+         "What is the date of the starting class?"
+      ],
+       "responses": [
+         "For Elementary, High School, Senior High, College, or Graduate School?"
+      ]
+    },
+
+    {
+      "tag": "elementary",
+       "patterns": [
+         "for elementary",
+         "elementary"
+      ],
+       "responses": [
+         "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/admission."
+      ]
+    },
+
+    {
+      "tag": "highschool",
+       "patterns": [
+         "for highschool",
+         "highschool"
+      ],
+      "responses": [
+        "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/admission."
+      ]
+    },
+
+    {
+      "tag": "seniorhigh",
+       "patterns": [
+         "for seniorhigh",
+         "seniorhigh"
+      ],
+      "responses": [
+        "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/admission."
+      ]
+    },
+
+    {
+      "tag": "college",
+       "patterns": [
+         "for college",
+         "college"
+      ],
+      "responses": [
+        "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/admission."
+      ]
+    },
+
+    {
+      "tag": "graduateschool",
+       "patterns": [
+         "for graduateschool",
+         "graduateschool",
+         "graduate school"
+      ],
+      "responses": [
+        "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/admission."
+      ]
+    },
+
+    {
+      "tag": "school automate account",
+       "patterns": [
+        "How to know the school automate password po",
+        "I cannot access or log in to my school automate account.",
+        "I cant open my NEU Automate account",
+        "Please reset our login details because it's locked after keying the password 10 times incorrectly.",
+        "Until now i was not able to open my automate. i have so many email send to csd but til now they dont have any response yet.",
+        "forgot the USERNAME and PASSWORD of my automate account .",
+        "it says invalid log in even though I'm officially enrolled.",
+        "i tried logging but it keeps telling me ''Invalid login please try again later'' I just made my automate account an hour ago.. Hoping for a reply.",
+        "Reset my Automate account.",
+        "I forgot my automate password.",
+        "Automate account is accessible but automate isn't.",
+        "what to do if the automate tells me that my name already exists. Please visit  your assigned student id. I don't have my student ID yet. The automate didn't accept my temporary password. I want to enroll in grad school. ",
+        "Invalid log in using student number as username.",
+        "Wrong username g18-12120-931 or password my password is my neu automate password.",
+        "Even with the default username and password provided I am still unable to access the said Automate account.",
+        "i can login my automate, but i cant login my neuvle",
+        "can't log in since Monday despite following site instructions. .automate account is accessible",
+        "can't log in despite following instruction on how to. Automate account is accessible",
+        "my concern is that i cant log in in my automate.",
+        "Reset automate account"
+
+       ],
+        "responses": [
+         "Kindly Visit : https://automate.neu.edu.ph/PARENTS_STUDENTS/parents_student_index.htm"
+      ]
+    },
+
+    {
+      "tag": "neu vle account",
+       "patterns": [
+         "i cant access my neuvle",
+         "i cant access vle",
+         "subject not in vle",
+         "i have problem on vle account",
+         "Cannot login to my  NEUVLE What should I do.",
+         "My school automate username and password is updated but the thing is i cant access my NEUVLE account, I still dont know about my subjects and schedules.",
+         "I am kindly asking for assistance in accessing my NEUVLE account. I have tried to login using my username I.D. as my SchoolAutomate as well but the website tells us that it is invalid.",
+         "Can't Log in to the new VLE site. It says that the info I inputted was invalid even I input the right one. ",
+         "Cannot access the NEUVLE using student ID No. 1150109 as username and password of AUTOMATE.",
+         "Please advise on how we can get the school automate password for my daughter's access. We have her username, but no school automate password has been sent to us. Please assist us. We have been asking about this since the September.",
+         "I cannot access my vle.",
+         "Cannot login to my VLE account.",
+         "Help me log in.",
+         "No access yet on neuvle/automate. Everytime she log-in is going invalid despite of following the guidelines/step by step process.",
+         "I cannot create an account, we missed the class orientation - I was sending an email back and forth to the email addresses in the website but were not getting any help. we are so frustrated",
+         "Can't access my NEUVLE",
+         "Unable to Log in. Always INVALID. Request for reset.",
+         "I can't access my NEUVLE acc, even tho I Can access my automate.",
+         "VLE Log in INVALID. Request for reset.",
+         "Request for reset.",
+         "cant-access in the k-12 page in neuvle, we are using the student number as username and password, still invalid .",
+         "I cannot access or log in to my school automate account.",
+         "Can't access, please reset the account.",
+         "Already created a unique username and password. Can login to automate but not on VLE. Tried everything that was recommended.",
+         "I can access my automate, but I can't access my VLE account.",
+         "I have been waiting for the response of csd@neu.edu.ph to reset the username/password of my VLE account for I have not used it for a long time and forgotten the said account details.",
+         "cant Find user or email",
+         "We were able to log in last Oct 4, 2020 only. Invalid log-ins the following days.",
+         "My VLE account says Invalid Entry I cant access in my account.",
+         "I cant open my NEU VLE account",
+         "I cannot access VLE account despite using my student number as username and student automate.",
+         "Invalid log in on NEU VLE.",
+         "I can't open my neuvle account because it says Invalid login, please try again. I am enrolled already but yet, I can't still log in my NEUVLE account.",
+         "I can't log in on my vle.",
+         "didn't change the default password and it expired. cannot log in to neuvle. ",
+         "Invalid log in my vle until now. Can't comply to my activities.",
+         "I forgot my vle password.",
+         "I cannot  access my VLE, invalid log in.",
+         "invalid log in.",
+         "Till now i cannot login in my VLE.",
+         "Pls help me to update my VLE account so that i could attend my class in my updated COM, For I can’t attend class because my previous subjects that i enrolled were not related to my course.",
+         "It says I cant log in or invalid log in etc.",
+         "I can't access my vle account. Even though I typed the correct student id & auto password.",
+         "Invalid username/password. We can log in until last Monday Oct. 5, 2020. It just became an invalid status.",
+         "Until now i was not able to open my NEU VLE account. i have so many email send to csd but til now they dont have any response yet.",
+         "forgot the USERNAME and PASSWORD of my VLE account .",
+         "My VLE Account was Invalid.",
+         "I used my id number and school automate password wont work.",
+         "how can i retrieve my password?",
+         "I forgot my Username and Password.",
+         "I cant log in to NEUVLE account/ tried it 4 times but it says here invalid.",
+         "Cant open my VLE.",
+         "I can't access my vle account, I am requesting to reset my  account in NEU Virtual Learning Education.",
+         "can't login or access account.",
+         "I can't access my vle account I already send email but up until there is no response, I cant access the links for my subjects.",
+         "invalid login even if I'm using the correct username and password.",
+         "Invalid username and password.",
+         "Cannot log into NEUVLE.",
+         "cant access my account.",
+         "I can't log in to my neuvle account. I already followed the instruction how to log in but still not working.",
+         "I have been emailing jhs@neu.edu.ph and I have been following their instructions, which was to log in using my student number as both username as password, as well as the instructions from NEU's official Telegram channel but none of those have worked,I still cannot access my NEUVLE account.",
+         "I can't open ng vle acount.",
+         "I'm unable to access NEUVLE. I've been receiving an error: site is busy. ",
+         "I used my student # as my username instead of my initials.",
+         "Can't log in to VLE although my school automate is active and I can access it, another thing, I enrolled Last July 15 and all my subjects are under OE. I hope I can log in to VLE soon.",
+         "My son cant log in to his VLE account even the username and password is correct.",
+         "I have tried logging in to my VLE account but it says it was an invalid log in. Ive been experiencing this since last week and emailed CSD twice. Havent received any response from them.",
+         "I cannot open or access my VLE account.",
+         "I'm not officially enrolled but my payment was already posted in my ledger. Is that related to my problem in logging in to vle?",
+         "I can't open my NEUVLE Account.",
+         "Invalid log in, I tried the forgot password already but my email listed in your data system is already corrupted and I can't retrieve it, if possible maybe you can send the link to reset password to this one ustengtanaid@gmail.com, sorry for the troubele, good day, thank you.",
+         "I can't log in and reset the password because my email address listed on your database is already corrupted, if possible please send the reset password link to this email instead ustengtanaid@gmail.com, thank you.",
+         "Even with the default username and password provided I am still unable to access the said NEU VLE account.",
+         "i cant open my vle account since I enrolled oct 1,2020",
+         "can't access in VLE",
+         "Invalid to access NEU VLE account.",
+         "Everytime I tried to log in my account it's always invalid.",
+         "I can already access my automate but i can’t open my vle. Also my section then was Chrysolite but it became Sapphire as soon as my automate was opened.",
+         "I  cannot access the VLE.  I'll already sent an email to CSD about the problem but I have not yet received the answer and solution about that. I hope that this problem will be fix as soon as possible because every activity that given by our professor has a allotted time to work.",
+         "I request for a reset but when i tried to log in it says wrong password or username.",
+         "My password and username is correct but I still can't login.",
+         "Where to sign up for a VLE account?",
+         "Cashier doesn’t yet reply and CSD doesn’t yet send my Permanent Student ID",
+         "Was not able to log in .",
+         "I can't access the NEUVLE, every time I log in it its invalid.",
+         "My username and password is not working but it is based on your instructions.",
+         "I can't access my vle account even if I use my student no. and automate password.",
+         "I dont have vle acct. How can i create.",
+         "I cant access my neu vle account my username is jkdandaya@neu.edu.ph  (base sa instruction)",
+         "I can't login to neuvle, I also tried to remove/put the hyphens in my ID number and my automate password but it always says invalid login.",
+         "Invalid log in.",
+         "I cannot fully access my vle.",
+         "I can't access my vle account. When i tried to log in it always invalid.",
+         "cannot access log in and password",
+         "I can't access my vle account pls help me. When i tried to log in it always invalid.",
+         "I was able to login to Automate but not in VLE. ",
+         "Can't access may neuvle account, i cannot forget the password. Always invalid.",
+         "my concern is that i cant log in in my neu vle.",
+         "I still can't open my vle/moodle account. Invalid log in. ",
+         "Forgotten username and password",
+         "I still can't open my VLE account ",
+         "I cannot access or log in my account",
+         "Invalid account",
+         "Invalid log in i did not change my email and password so if ever I'll make new account to vle so that i can access.",
+         "I cannot access my NEU VLE account.",
+         "My vle account is always invalid login, please try again. I tried my Student ID as my username and my password same as my automate but it's always invalid login.",
+         "Can't access my vle account using my ID number as a username and automate password as my password. Can't log in my NEU email account",
+         "Although, I put my username and password correctly still I can't acess my account.",
+         "I can't open my NEUVLE Account.",
+         "I can't log in to vle. I don't have a vle account.",
+         "I haven't attended any of my classes this week and I don't have a NEUVLE account yet.",
+         "I can't log in my vle account. It said failure to log in",
+         "I can't access my vle even though the password is right.",
+         "After following the steps on how to log on to NEU VLE, I still cannot access my own account. Hoping to hear from you soon!",
+         "I cant access may VLE ACCOUNT using my ID# and AUTOMATE password even if im officially enrolled, please help me"
+      ],
+      "responses": [
+        "You may contact NEU HELPDESK at neuvle@neu.edu.ph or Email your corresponding Department"
+      ]
+    },
+
+    {
+      "tag": "enrollment secondsem",
+       "patterns": [
+         "when is the enrollment for second semester",
+         "next sem",
+         "second sem",
+         "date of enrollment for second sem"
+      ],
+      "responses": [
+        "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/admission."
+      ]
+    },
+
+    {
+      "tag": "duration secondsem",
+       "patterns": [
+         "what is the duration for second semester",
+         "how long is the second semester",
+         "when is the end of second semester"
+      ],
+      "responses": [
+        "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/news/2020/06/Collegiate-Calendar-1st-Semester-Academic-Year-2020-2021."
+      ]
+    },
+
+    {
+      "tag": "units",
+       "patterns": [
+         "Are we still required to take the LAB units of major subjects despite its incompatibility with online class?",
+         "how about the lab units of my major subject?"
+      ],
+       "responses": [
+         "Every subjects both laboratory and lecture are all required to take."
+      ]
+    },
+
+    {
+      "tag": "new normal",
+       "patterns": [
+         "How can you handle new normal?",
+         "What are your plans for the next school year?",
+         "Is it possible to have a face-to-face classes next school year?",
+         "Online class parin ba next year?",
+         "When will be the face to face school year?",
+         "Will we having a face to face class?",
+         "Is the next School Year will be Face to Face?",
+         "Do we have a face to face classes next year?",
+         "Would there be any chance that they will require us to do face-to-face class ?"
+      ],
+       "responses": [
+         "New Era University is pursuing its best to give its student the best quality of education in times of this new normal."
+      ]
+    },
+
+    {
+      "tag": "holiday break",
+        "patterns": [
+          "How to know all the upcoming holidays?",
+          "How to know if there will be no class?"
+      ],
+       "responses": [
+        "Kindly visit New Era University's Website for further details : https://neu.edu.ph/main/index.php/news/2020/06/Collegiate-Calendar-1st-Semester-Academic-Year-2020-2021."
+      ]
+    },
+
+    {
+      "tag": "registrar",
+       "patterns": [
+         "As a fresh grad from NEU batch 2020, where and when can we take our graduation pictures?",
+         "When can I request my TOR and Diploma?",
+         "How can we request for the official school documents?",
+         "How about tuition fee Increase or decrease?",
+         "How to apply a scholarship?",
+         "I would like to know what are the process of getting the TOR"
+      ],
+       "responses": [
+        "Kindly email New Era University school registrar for further assistance : registrar@neu.edu.ph "
+      ]
+    },
+
+    {
+      "tag": "neu vle subjects",
+       "patterns": [
+         "Enrolled but no subject in my dashboard.",
+         "I can't access my subject because I don't know what are the enrolment keys. I'm not able to attend yesterday's orientation and now I'm stuck. Please help me with my problem.",
+         "my NEUVLE dashboard is still not updated. I have my new schedule for GECLWR-18 at block 3-CE3, the group chat for that course is still not appearing, it concerns that maybe I'm still not enrolled to that block.",
+         "Incomplete Subject Applied in my current account on VLE.",
+         "I accidentaly added another subject, Can you please remove the Subjects PSYCH 11-14 and WOTR.",
+         "I just wanted to inform you that I checked my VLE today, but I’m still facing some issues, since my classes are not encoded on the site.",
+         "I cant pass my requirements in all of my subject besides applied statistics in Business.",
+         "Im already enrolled last week then added another subject in my automate but the subject is not yet in my VLE account.",
+         "No subjects in NEU VLE.",
+         "My subjects are missing.",
+         "My son is already enrolled but there is no subject on his dashboard. ",
+         "No PE subject in VLE.",
+         "Can't enroll 2 subjects in neuvle.",
+         "Both my subjects are not  appearing in my course in VLE. I also tried enroll them myself in the platform but both says that I'm not allowed to enroll them by myself.",
+         "I can't access my courses, I don't know what the enrollment key is ?",
+         "Missing subject in my VLE account Logic and General Psychogoly.",
+         "I just enrolled last time, but there are no subjects in my VLE account.",
+         "Im already enrolled with my subjects, but in the vle it says that I am not enrolled in any.",
+         "Until now i was not able to open my automate and vle acccount. i have so many email send to csd but til now they dont have any response yet.",
+         "Cannot enroll, asking for enrolment key",
+         "I'm still not included in a group chat in NEUVLE, which is The Contemporary World (MW: 10:00 AM - 11:30 AM). I had also informed my professor, the neuvle helpdesk, and the CSD about this multiple times. Please help me fix this so I won't have difficulty with catching up with the lessons and updates. Thank you.",
+         "I can access and log in to my vle accout but I don't have any subjects enrolled/ accessed in. So I still don't have any modules/activities to be seen in my courses/account po. Also, I haven't receive any COM po even my SD Form/Salaysay regarding as ministers' independent is confirmed.",
+         "I can now access my account on VLE but there is now subjects provided. ",
+         "Can't open my VLE account.",
+         "No account to enter VLE. I cannot proceed to my enrolled subjects. How can you help me to proceed through online learning.",
+         "I just got access to my VLE account today October 7, 2020. But I am not yet enrolled in my designated courses, my dashboard is empty.  Is it because I enrolled quite late?",
+         "I can't open my vle account even if I'm entering the correct username and password.",
+         "I can't access another one last subject, it is still looking for a enrolment key (Intermediate Accounting 3) The other problem, I don't know the email or I don't have the email with the end @neu.edu.ph.",
+         "I would like to address my concern regarding my courses and activities. There's no courses in my dashboard as i already refresh and log in into my account many times but there's still no activities and courses",
+         "Subjects does not seem to appear yet.",
+         "there are no courses or subject in my dashboard.",
+         "Kindly remove the GESTS-18 on my course line since I already took it last summer class.",
+         "Strategic Business Analysis is not yet in my  VLE that is the only subject left in my curicculum.",
+         "STRABA is not yet on my VLE account.",
+         "I can’t access my subjects/courses.",
+         "There were no instructions on how we will be able to access our enrolled subjects. Are they going to add them in VLE? Are we supposed to enroll them? Please let us know since the class has already been started. We might get another incomplete grades.",
+         "There is no subjects showing on my VLE ",
+         "her VLE subjects do not match her enrolled subjects",
+         "I can't open my wiley account but I can open my VitalSource account using my gmail. It appears that I have to purchase the book before I can access it. I thought our subscription with Wiley is already included in our tuition fee.",
+         "I already received verification of enrollment and already accessed VLE. Though, upon checking my VLE account, I found out that I am still not yet enrolled in any of my subjects/courses. Was it normal? Or should I just wait again?",
+         "I can access my VLE now but the problem is i dont have Subjects enrolled there. When I tried to enroll i need an enrollment key. How can I add my Subjects?",
+         "Incomplete courses po",
+         "There are no subjects appearing in  my dashboard.",
+         "My vle account isn't accessible.",
+         "I was instructed to change my subject because it will dissolved I already change is to my automate account waiting for the update to my neuvle account.thank you.",
+         "I'm enrolled but my subjects need an enrolment key.",
+         "i still dont have a course on my dashboard  on the subject The Contemporary World.",
+         "my dashboard's empty. no courses - stated on my course overview "
+
+      ],
+       "responses": [
+        "Kindly email your Respective Department for further assistance"
+      ]
+    },
+
+    {
+      "tag": "neu vle activity",
+       "patterns": [
+         "Good morning po! I have a minor concern lang po .It's about the activity yesterday  Introduce Yourself .I had a 2 posts po,i want to delete the first one that i wrote po sana but i can't find the delete section po.The first post po kasi maraming typo error hindi ko na po na check at naipost ko na agad.Sana po ma help niyo ako na ma delete po iyong first post ko.Thank you",
+         "Understanding the self - can't post self introduction.",
+         "I'm from I-Psych1 and we cannot access the information sheet for our self introduction because it needs permission from the owner of the google forms.",
+         "I cannot fill in the information needed to some of the fields in the information sheet for our self introduction such as insert profile picture, contact no., year and section",
+         "I dont have any announcement and any messages from the profs. I cant see any modules from my other subjects. I think my account cant be seen po by others po. I only have one subject on my dashboard and if i'll post my answers in the activity I cant find the add to a new discussion I cant post my answers in the forum. "
+      ],
+       "responses": [
+        "Kindly email your Respective Department for further assistance"
+      ]
+    },
+
+    {
+      "tag": "enrollment error",
+      "patterns": [
+        "I would like to enroll in BSIT but the automate message me that my name is already registered. unfortunately we encounter an error and there we did not receive any temporary id. also the message in the automate error said that i should visit that school to inquire about assigned student id. I already emailed admission and csd department to help me out with the error in the automate. still i have not yet receive any email from them the class is already started, i want to enroll and take the program in BSIT. kindly help me with matter. kindly send me email please regarding my concern.",
+        "I'm not already enrolled in automate but I already email my professor of payment to the cashier since sept 25 but now I'm still not enrolled. the online class are already start. I hope you notice my concern thank you!",
+        "I paid my enrollment fee a week ago but still im not yet enrolled.",
+        "please verify my enroll for me to access my online class and vle as well. i need it badly ASAP cause i paid on oct 3 ,2020 and until now no one was verified it.",
+        "It has been more than a week since I've sent my proof of payment to the official email of NEU Cashier. I still haven't received any feedback from them and my enrollment remains unprocessed. I am missing a lot on my current subjects that I've encoded since I still don't have access to my VLE account. I respectfully ask that the process for my account be reviewed or I may be informed of the steps I may follow in order to gain access to my VLE account if it is possible."
+      ],
+       "responses": [
+        "Please visit New Era University Automate : https://automate.neu.edu.ph/PARENTS_STUDENTS/parents_student_index.htm or Email your designated Department"
+      ]
+    }, 
+
+    {
+      "tag": "professor concern",
+      "patterns": [
+        "how can I reach my adviser ?"
+      ],
+       "responses": [
+        "Kindly email your Respective Department for further assistance"
+      ]
+    }, 
+
+    {
+      "tag": "official receipt",
+      "patterns": [
+        "May I request to follow up my verification of Downpayment. Kindly follow up also may Certificate of Matriculation and Official receipt.  God bless po.",
+        "Cashier doesn’t yet reply and CSD doesn’t yet send my Permanent Student ID",
+        "My payment is not yet posted, I dont have my COM."
+      ],
+       "responses": [
+        "Kindly email New Era University school registrar for further assistance : registrar@neu.edu.ph "
+      ]
+    }, 
+
+    {
+      "tag": "graduation",
+      "patterns": [
+        "When do i apply for graduation?",
+        "Is there a graduation fee?",
+        "Is the coming graduation going to be physical or online?",
+        "When will i receive my diploma?",
+        "Where do i get my cap and gown?",
+        "What are the requirements for graduating with honors?",
+        "Where do i get my graduation photo?",
+        "What will happen if I can't attend my graduation ceremony?",
+        "I'm hoping to graduate soon – when will I receive some information about graduation?",
+        "Where are the graduation ceremonies held?",
+        "How long do graduation ceremonies take?",
+        "what do i do if i missed the deadline to apply to graduate?",
+        "I have financial holds on my records, can i still graduate?"  
+       ],
+        "responses": [
+        "Kindly email New Era University school registrar for further assistance : registrar@neu.edu.ph "
+      ]
+    }, 
+
+
+    {
+      "tag": "neu email",
+      "patterns": [
+        "Need my neu email to be able to join in my class via google meet.",
+        "Please activate my University Email to be use in VLE and GMeet ",
+        "I would like to request to have an intitutional email. For me to access a google form in our subject. It always says need permission whenever I try to click a google form.",
+        "I would like to request for my school email/gmail (username@neu.edu.ph). Since then po kasi di na po ako nakakagamit ng school email.",
+        "how can we access on our neu google account for our vle classroom, & some links are provided there.",
+        "No link received for change of email",
+        "One of the pre-requisites of our course Business Laws and Regulations (RFBT2) requires us, students, to have access to our school email. While trying the default Email Address and Password, I still can't open my school email.",
+        "It says contact administrator to earn access",
+        "I dont have access on my NEU VLE Gmail account, which is needed in my upcoming classes.",
+        "My neu google account is invalid and cannot be accessed. Some of our prof said that , it is already provided and follow some steps that was given to us, but still I can't accessed to it. I hope that you will addressed my concern because ou neu google account is badly needed this week.",
+        "My Neu email doesnt work.",
+        "My account is invalid",
+        "Can't access to information sheet that need in subject because student need a university domain address.",
+        "Do I already have a gmail account for NEU? I don't know how to have an access for it. ",
+        "help cant activate the acount of gmail in malmanalo@neu.edu.ph",
+        "I’m requesting for my neugmail acc",
+        "How to access po yung school email account (@neu.edu.ph)? Need po namin for google classroom.",
+        "One of our professor required us to attend class in Google classrom, but I can't access the class since I don't have an account that has @neu.edu.ph ."
+      ],
+       "responses": [
+        "Kindly email New Era University CSD for further assistance : csd@neu.edu.ph"
+      ]
+    }, 
+
+    {
+      "tag": "neu vle subjects schedule",
+      "patterns": [
+        "How to check all my enrolled subject?",
+        "Why does some of my subjects doesnt have its schedule",
+        "How can I check my subject's schedule",
+        "Where can I find my subject?"
+      ],
+      "responses": [
+      "Please visit New Era University Automate at https://automate.neu.edu.ph/PARENTS_STUDENTS/parents_student_index.htm or Email your designated Department for you subject schedule."
+      ]
+    }
+  ]
+}
